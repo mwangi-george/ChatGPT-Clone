@@ -3,7 +3,7 @@ from test_app.state import State
 
 
 def modal() -> rx.Component:
-    """A modal to create a new chat."""
+    """A modal to create a new chat"""
     return rx.chakra.modal(
         rx.chakra.modal_overlay(
             rx.chakra.modal_content(
